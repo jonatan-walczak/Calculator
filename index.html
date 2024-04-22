@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/12.4.1/math.min.js"
+      integrity="sha512-W5AfHbUHszM62m+dBEoG7SkMXrOW++rJVHqPQlilh2BiXtxjsEB2taHXCV8qW7WnTnX9xBMuyfmFLYCWkOgi2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="calculator.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <input type="text" class="input_section" id="input" />
+        <div class="all_tiles">
+          <div class="numbers_tiles">
+            <div class="normal_tile">7</div>
+            <div class="normal_tile">8</div>
+            <div class="normal_tile">9</div>
+            <div class="normal_tile">4</div>
+            <div class="normal_tile">5</div>
+            <div class="normal_tile">6</div>
+            <div class="normal_tile">1</div>
+            <div class="normal_tile">2</div>
+            <div class="normal_tile">3</div>
+            <div class="normal_tile">0</div>
+            <div class="normal_tile">00</div>
+            <div class="normal_tile">.</div>
+          </div>
+          <div class="operation_tiles">
+            <div class="normal_tile clear_tile">c</div>
+            <div class="normal_tile">/</div>
+            <div class="normal_tile">*</div>
+            <div class="normal_tile">-</div>
+            <div class="big_tile">+</div>
+            <div class="big_tile equal_tile">=</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
